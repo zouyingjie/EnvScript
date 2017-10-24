@@ -9,8 +9,9 @@ user_name = "zouyingjie"
 # os.system("cd /home/zouyingjie/source_code")
 # os.system("wget https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tgz")
 # os.system("tar -zxvf Python-3.6.2.tgz")
-os.system("cd /home/zouyingjie/source_code/Python-3.6.2")
-os.system("./configure --prefix=/usr/local/ --enable-shared")
+# os.system("cd /home/zouyingjie/source_code/Python-3.6.2")
+# os.system("./configure --prefix=/usr/local/ --enable-shared")
+os.system("cd /home/zouyingjie/source_code/EnvScript/Python-3.6.2")
 os.system("make and make install")
 
 os.system('echo "export PATH=/usr/local/python/bin:$PATH" &>> /root/.bashrc')
