@@ -13,4 +13,9 @@ os.system("cd Python-3.6.2")
 os.system("./configure --prefix=/usr/local/ --enable-shared")
 os.system("make and make install")
 
+os.system('echo "export PATH=/usr/local/python/bin:$PATH" &>> /root/.bashrc')
+os.system('echo "export PATH=/usr/local/python/bin:$PATH" &>> /home/zouyingjie/.bashrc')
 
+
+os.system("source /root/.bashrc")
+os.system("source /home/zouyingjie/.bashrc")
