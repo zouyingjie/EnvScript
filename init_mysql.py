@@ -2,14 +2,14 @@
 
 import os
 
-os.system("wget https://cdn.mysql.com//Downloads/MySQL-5.7/mysql-5.7.20-linux-glibc2.12-x86_64.tar.gz")
-os.system("tar -zxvf mysql-5.7.20-linux-glibc2.12-x86_64.tar.gz")
-os.system("mv mysql-5.7.20-linux-glibc2.12-x86_64 /usr/local/mysql")
-
-os.system("yum install libaio")
-os.system("groupadd mysql")
-os.system("useradd -r -g mysql -s /bin/false mysql")
-os.system("cd mysql")
+# os.system("wget https://cdn.mysql.com//Downloads/MySQL-5.7/mysql-5.7.20-linux-glibc2.12-x86_64.tar.gz")
+# os.system("tar -zxvf mysql-5.7.20-linux-glibc2.12-x86_64.tar.gz")
+# os.system("mv mysql-5.7.20-linux-glibc2.12-x86_64 /usr/local/mysql")
+#
+# os.system("yum install libaio")
+# os.system("groupadd mysql")
+# os.system("useradd -r -g mysql -s /bin/false mysql")
+os.system("cd /usr/local/mysql")
 os.system("mkdir mysql-files")
 os.system("chmod 750 mysql-files")
 os.system("chown -R mysql .")
