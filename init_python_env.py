@@ -13,6 +13,7 @@ user_name = "zouyingjie"
 # os.system("tar -zxvf Python-3.6.2.tgz")
 os.system("mv Python-3.6.2 /home/zouyingjie/source_code/Python-3.6.2")
 os.system("cd /home/zouyingjie/source_code/Python-3.6.2")
+os.system("pwd")
 os.system("./configure --prefix=/usr/local/ --enable-shared")
 os.system("make")
 os.system("make install")
